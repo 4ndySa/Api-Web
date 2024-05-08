@@ -1,0 +1,47 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <form action="" id="formulario1" style="width: 400px;">
+        <fieldset form="formulario1">
+        <legend>Datos básicos</legend>
+        <label for="nomb">Nombre</label><br>
+        <input type="text" name="nomb" size="40"> 
+        <p>
+        <label for="desc">Descripción</label><br>
+        <textarea name="desc" cols="40" rows="10" ></textarea>
+        <p>
+        <label for="foto">Foto</label>
+        <input type="file" name="foto">
+        <br>
+        <input type="checkbox"><label for="cont">Añadir contador de visitas</label>
+        </fieldset>
+        <fieldset form="formulario2">
+        <legend>Datos económicos</legend>
+        <label for="price">Precio</label><input type="number" style="width: 50px;">€   
+        <label for="impuesto">Impuestos</label> 
+        <select name="porcentaje">
+            <option value="4">4%</option>
+            <option value="7">7%</option>
+            <option value="16">16%</option>
+            <option value="25">25%</option>
+        </select>
+        <p>
+        <label for="promo">Promoción</label><br>
+        <input type="radio" name="nin">
+        <label for="nin">Ninguno</label><br>
+        <input type="radio" name="trans_gra">
+        <label for="trans_gra">Transporte gratuito</label><br>
+        <input type="radio" name="des">
+        <label for="des">Descuento 5%</label>
+        </fieldset>
+    <center>
+        <input type="submit" value="Enviar"><input type="reset" value="Cancelar">
+    </center>
+    </form>
+</body>
+</html>

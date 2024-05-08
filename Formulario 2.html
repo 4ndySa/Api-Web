@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 2</title>
+    <style>
+        input[type="text"],input[type="number"],input[type="email"],input[type="date"]
+        {
+            border:none;
+            padding: 8px;
+            background-color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <center>
+        <table border="0" style="width: 800px;">
+        <tr><img src="coar.jpg" width="500"></tr><br>
+        <tr><td style="text-align: center;">"Año del buen servicio al ciudadano"</td></tr>
+        <tr><td><h3 style="text-align: center;">FORMATO 3: DECLARACIÓN JURADA SOCIOECONÓMICA</h3></td></tr>
+        <tr><td style="text-align: left;">El presente documento permitirá identificar aspectos referidos a la situación del hogar del estudiante. Es preciso que <u>responda a todas las preguntas presentadas</u> en cada aspecto. de manera clara y veraz.</td></tr>
+        <tr style="text-align: left;"><td><u><b>Llenar con letra clara, legible y evite borrones</b></u></td></tr>    
+        </table>
+    </center>
+        <center>
+        <table border="1" style="width: 800px;">
+            <tr><td colspan="4" style="background-color: darkgrey;"><b>A.DATOS DEL ESTUDIANTE: Completar los espacios solicitados</b></td></tr>
+            <tr><td colspan="4">Apellido Paterno: <input type="text" id="ap_paterno" size="80" required></td></tr>
+            <tr><td colspan="4">Apellido Materno: <input type="text" id="ap_materno" size="80" required></td></tr>
+            <tr><td colspan="4">Nombres: <input type="text" id="nomb" size="80" required></td></tr>
+            <tr><td colspan="4" style="background-color: darkgrey;"><b>Datos adicionales</b></td></tr>
+            <tr>
+                <td>Sexo: <br><input type="radio"> Masculino <input type="radio"> Femenino</td>
+                <td>Edad: <input type="number" min="8" max="15"></td>
+                <td>N° de DNI: <input type="number"></td>
+                <td>¿Pertenece a alguna Etnia? <input type="radio">Si <input type="radio">No</td>
+            </tr>
+            <tr>
+                <td colspan="2">Correo Electronico del Estudiante: <input type="email"></td>
+                <td>Telefono del Estudiante <input type="number"></td>
+                <td>Lengua Materna: <input type="text"></td>
+            </tr>
+            <tr>
+                <td>Nombres y Apellidos de la Madre: <input type="text"></td>
+                <td>Nombres y Apellidos del Padre: <input type="text"></td>
+                <td colspan="2">Nombres y Apellidos del Apoderado, cuando sea el caso: <input type="text"></td>
+            </tr>
+            <tr>
+                <td>N° de DNI de la Madre: <input type="number"></td>
+                <td>N° de DNI del Padre: <input type="number"></td>
+                <td colspan="2">N° de DNI del Apoderado: <input type="number"></td>
+            </tr>
+            <tr><td colspan="4" style="background-color: darkgrey;"><b>Domicilio</b></td></tr>
+            <tr><td colspan="4">Dirección: <input type="text"></td></tr>
+            <tr>
+                <td colspan="2">Distrito: 
+                    <select name="distrito">
+                        <option value="cho">Chojata</option>
+                        <option value="coal">Coalque</option>
+                        <option value="ichu">Ichuña</option>
+                        <option value="laca">La capilla</option>
+                        <option value="loque">Lloque</option>
+                        <option value="mat">Matalaque</option>
+                        <option value="oma">Omate</option>
+                        <option value="puqui">Puquina</option>
+                        <option value="quini">Quinistaquillas</option>
+                        <option value="ubi">Ubinas</option>
+                        <option value="yun">Yunga</option>
+                        <option value="alga">El algarrobal</option>
+                        <option value="ilo">Ilo</option>
+                        <option value="paco">Pacocha</option>
+                        <option value="caru">Carumas</option>
+                        <option value="cuchu">Cuchumbaya</option>
+                        <option value="moque">Moquegua</option>
+                        <option value="san">San Antonio</option>
+                        <option value="same">Samegua</option>
+                        <option value="sancri">San Cristobal</option>
+                        <option value="tora">Torata</option>
+                </td>
+                <td>Provincia:
+                    <select name="provincia">
+                        <option value="1">Sanchez Cerro</option>
+                        <option value="2">Mariscal Nieto</option>
+                        <option value="3">Ilo</option></td>
+                <td>Región:
+                    <select name="region">
+                        <option value="Moquegua">Moquegua</option></td>
+            </tr>
+            <tr><td colspan="4" style="background-color: darkgrey;"><b>Datos del nacimiento</b></td></tr>
+            <tr>
+                <td colspan="2">Fecha de Nacimiento: <input type="date"></td>
+                <td>Provincia:
+                    <select name="provincia">
+                        <option value="1">Sanchez Cerro</option>
+                        <option value="2">Mariscal Nieto</option>
+                        <option value="3">Ilo</option>
+                </td>
+                <td>Región: 
+                    <select name="region">
+                        <option value="Moquegua">Moquegua</option></td>
+            </tr>
+            <tr><td colspan="4" style="background-color: darkgrey;"><b>Otros datos</b></td></tr>
+            <tr><td colspan="4">Número de teléfono fijo: <input type="number"></td></tr>
+        </table>
+    </center>
+    </form>
+</body>
+</html>
